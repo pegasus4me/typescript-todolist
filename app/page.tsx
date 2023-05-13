@@ -43,7 +43,7 @@ export default function Home() {
         <TaskContainer>
 
         {taskList.map((val) => {
-            <Task send={() => deleteTaskt } text={val.text}/>
+            return <Task send={() => deleteTaskt } text={val.data} />
         })}  
         
         </TaskContainer>

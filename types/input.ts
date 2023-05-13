@@ -6,7 +6,7 @@ export interface InputProps {
 }
   
 export interface Value {
-    data : String
+    data : string
     date? : Number
 }
 
