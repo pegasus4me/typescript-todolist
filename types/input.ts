@@ -7,7 +7,7 @@ export interface InputProps {
   
 export interface Value {
     data : string
-    date? : Number
+    date : number
 }
 
 export interface taskData {
